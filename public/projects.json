@@ -1,0 +1,126 @@
+[
+  {
+    "name": "The current website",
+    "description": "Construct a personal website exposing my CV and my projects.",
+    "links": {},
+    "technologies": [
+      "Node.js",
+      "React.js",
+      "CSS",
+      "React-Router-Dom",
+      "Styled-Components",
+      "AWS Amplify"
+    ]
+  },
+  {
+    "name": "Secrets Manager - SStore (Secure Store)",
+    "description": "Simple secrets manager, where with a single and strong password, one can safely store and then retrieve every secret.",
+    "links": {
+      "github - mongoDB": "https://github.com/KevinDeNotariis/sstore",
+      "github - mongoDB-less": "https://github.com/KevinDeNotariis/sstore/tree/mongoDBLess"
+    },
+    "technologies": [
+      "Node.js",
+      "MongoDB",
+      "Cryptography",
+      "Hashing",
+      "Encryption",
+      "Decryption",
+      "CLI",
+      "inquirer.js"
+    ]
+  },
+  {
+    "name": "Build a complete CI/CD Pipeline and its infrastructure with AWS — Jenkins — Bitbucket — Docker — Terraform",
+    "description": "A tutorial composed of 6 medium articles in which I try to guide the reader through the creation of a complete CI / CD pipeline with all the infrastructure implemented as Code using Terraform on AWS.",
+    "links": {
+      "github": "https://github.com/KevinDeNotariis/pipeline-template",
+
+      "part 1": "https://faun.pub/build-a-complete-ci-cd-pipeline-and-its-infrastructure-with-aws-jenkins-bitbucket-docker-bd29968a99b6",
+      "part 2": "https://faun.pub/build-a-complete-ci-cd-pipeline-and-its-infrastructure-with-aws-jenkins-bitbucket-docker-75bf8fb7d1c6",
+      "part 3": "https://faun.pub/build-a-complete-ci-cd-pipeline-and-its-infrastructure-with-aws-jenkins-bitbucket-docker-22c49ad4674a",
+      "part 4": "https://faun.pub/build-a-complete-ci-cd-pipeline-and-its-infrastructure-with-aws-jenkins-bitbucket-docker-2724b43897b8",
+      "part 5": "https://kevin-denotariis.medium.com/build-a-complete-ci-cd-pipeline-and-its-infrastructure-with-aws-jenkins-bitbucket-docker-aa36f0f3bbb8",
+      "part 6": "https://kevin-denotariis.medium.com/build-a-complete-ci-cd-pipeline-and-its-infrastructure-with-aws-jenkins-bitbucket-docker-9b55ea63d2ed"
+    },
+    "technologies": [
+      "Jenkins",
+      "Docker",
+      "Bitbucket",
+      "GIT",
+      "Terraform",
+      "Amazon Linux",
+      "AWS",
+      "EC2",
+      "ECR",
+      "S3",
+      "Secrets Manager",
+      "Networking",
+      "Policies",
+      "Slack",
+      "Bash Scripting",
+      "Python",
+      "SSH",
+      "Jenkinsfile",
+      "Infrastructure as Code",
+      "Continuous Integration",
+      "Continuous Deploy",
+      "CURL"
+    ]
+  },
+  {
+    "name": "Blockchain Simulation",
+    "description": "Simulation in which the curious user can explore the fundamental concepts of a blockchain. The blockchain has been created from scratch using Nodejs and MongoDB. There are blocks composed of a header (with the metadata) and a body with the transactions. Blocks needs to be mined (Proof-of-work) to be effectively placed in the blockchain (distributed by the mining node to other peers). The comunication between endpoints is done through RESTful APIs.",
+    "links": {
+      "github": "https://github.com/KevinDeNotariis/blockchain_simulator"
+    },
+    "technologies": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MVC - Model View Controller",
+      "RESTful APIs",
+      "HTML",
+      "CSS",
+      "EJS",
+      "Cryptography",
+      "Merkle Tree",
+      "Encryption",
+      "Decryption",
+      "Hashing",
+      "Proof-of-Work",
+      "Unit tests",
+      "Mocha",
+      "Chai",
+      "Chai-http",
+      "Postman"
+    ]
+  },
+  {
+    "name": "Tutorial on building a website with Nodejs",
+    "description": "A tutorial on how to build a website from the back-end to the front-end using Nodejs, MongoDB, Express.js and EJS (as view engine).",
+    "links": { "github": "https://github.com/KevinDeNotariis/tutorial" },
+    "technologies": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "EJS",
+      "HTML",
+      "CSS",
+      "JWT",
+      "MVC - Model View Controller",
+      "Authentication",
+      "Authorization",
+      "Input sanification",
+      "Input validation"
+    ]
+  },
+  {
+    "name": "Self-replicating virus",
+    "description": "Simple proof-of-concept virus in python which injects itself into other python scripts. Different versions of the same virus has been constructed from plain text to more obfuscated one.",
+    "links": {
+      "github": "https://github.com/KevinDeNotariis/self-replicating-virus"
+    },
+    "technologies": ["Python", "Encryption", "Decryption"]
+  }
+]

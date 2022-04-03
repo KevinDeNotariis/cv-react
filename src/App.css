@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+nav button {
+  background-color: inherit;
+  border: none;
+}
+
+nav button:hover {
+  background-color: #333;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+nav button.selected {
+  background-color: #333;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
