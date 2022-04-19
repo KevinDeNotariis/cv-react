@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Projects from "../components/Projects";
+import {H1} from "../components/headers"
 
 const ProjectsPage = () => {
   const [data, setData] = useState([]);
@@ -19,7 +20,7 @@ const ProjectsPage = () => {
   }, []);
 
   return !data || data.length === 0 ? (
-    <h1>Loading...</h1>
+    <H1>Loading...</H1>
   ) : (
     <Projects data={data} />
   );

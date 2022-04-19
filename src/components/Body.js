@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Me from "./Me";
+import {H1} from "./headers"
 
 const Body = () => {
   const [data, setData] = useState({});
@@ -26,7 +27,7 @@ const Body = () => {
   return (
     <div className="body">
       {Object.keys(data).length === 0 ? (
-        <h1>Loading...</h1>
+        <H1>Loading...</H1>
       ) : (
         <>
           <Me data={data} />

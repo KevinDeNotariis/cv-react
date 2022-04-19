@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import MarkdownParse from "./MarkdownParse.js";
+import LogoTitle from "./LogoTitle.js";
+import {H2,H3} from "./headers"
 
 const Container = styled.div`
   text-align: justify;
@@ -8,15 +11,21 @@ const Container = styled.div`
 const WorkExperience = (props) => {
   return (
     <Container>
+      <LogoTitle 
+        image_src={props.data.logo}
+        image_alt={props.data.logo}
+        title={`${props.data.company} - ${props.data.role} - ${props.data.contractType}`}
+      />
       <p>
         {props.data.startDate} -{" "}
         {props.data.endDate ? props.data.endDate : "current"}
       </p>
-      <h4>
-        {props.data.company} - {props.data.role} - {props.data.contractType}
-      </h4>
-      <h5>Description:</h5>
-      <p style={{ whiteSpace: "pre-wrap" }}>{props.data.description}</p>
+      <H3>Description:</H3>
+      {/* <p style={{ whiteSpace: "pre-wrap" }}> */}
+        <MarkdownParse>
+          {props.data.description}
+        </MarkdownParse>
+      {/* </p> */}
     </Container>
   );
 };

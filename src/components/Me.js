@@ -5,6 +5,7 @@ import WorkExperiences from "./WorkExperiences";
 import AboutMe from "./AboutMe";
 import EducationGroup from "./EducationGroup";
 import PersonalInfo from "./PersonalInfo";
+import {H1, H3} from "./headers"
 
 const Root = styled.div`
   display: flex;
@@ -46,12 +47,12 @@ const Header = styled.header`
 
 const Me = (props) => {
   return Object.keys(props.data).length === 0 ? (
-    <h1>Loading...</h1>
+    <H1>Loading...</H1>
   ) : (
     <Root>
       <Header>
-        <h1>{props.data.name}</h1>
-        <h3 style={{ letterSpacing: "4px" }}>{props.data.caption}</h3>
+        <H1>{props.data.name}</H1>
+        <H3 style={{ letterSpacing: "4px" }}>{props.data.caption}</H3>
         <HorizontalLine />
       </Header>
       <Container>

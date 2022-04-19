@@ -10,11 +10,12 @@
     "linkedin": "https://www.linkedin.com/in/kevin-de-notariis-4b48221b0"
   },
   "caption": "Theoretical Physicist && Software Developer && DevOps Engineer",
-  "description": "I am a very dynamic and curious guy, fascinated about the misteries of our universe and the technology that we came to develop in these last few decades. My accademic path studying physics has been a wonderful journey, and I'm still amazed by the astonishing inner workings of our reality that we managed to discover mostly in the last couple of centuries. \n\nI love science and I love learning. I feel some kind of drive towards the unknown, I love to test my skills and face new challenges. - Always improve - is my motto! \n\nRight now I'm into these topics:\n\n - Web Development;\n - DevOps;\n - Blockchain technologies;\n - Ethical Hacking. \n\nAlso, I started to publish articles on Medium hoping to transfer some of my knowledge to other people and ease their journey through all these technologies.",
+  "description": "I am a very dynamic and curious guy, fascinated about the mysteries of our universe and the technology that we came to develop in these last few decades. My accademic path studying physics has been a wonderful journey, and I'm still amazed by the astonishing inner workings of our reality that we managed to discover mostly in the last couple of centuries. \n\nI love science and I love learning. I feel some kind of drive towards the unknown, I love to test my skills and face new challenges. \n\n```\n Always Improve\n```\n\n is my motto! \n\nRight now I'm into these topics:\n\n - Web Development;\n - DevOps;\n - Blockchain technologies;\n - Ethical Hacking. \n\nAlso, I started to publish articles on Medium hoping to transfer some of my knowledge to other people and ease their journey through all these technologies.",
   "education": [
     {
       "type": "Master's degree",
       "institution": "University of Bologna",
+      "logo": "BolognaLogo",
       "country": "Italy",
       "city": "Bologna",
       "field": "Theoretical Physics",
@@ -31,6 +32,7 @@
     {
       "type": "Bachelor's degree",
       "institution": "University of Bologna",
+      "logo": "BolognaLogo",
       "country": "Italy",
       "city": "Bologna",
       "field": "Physics",
@@ -47,6 +49,7 @@
     {
       "type": "High School",
       "institution": "ITI Ettore Majorana",
+      "logo": "majorana",
       "country": "Italy",
       "city": "Bologna",
       "field": "Scientific",
@@ -61,16 +64,18 @@
   "workExperience": [
     {
       "company": "Yoox Net-A-Porter Group",
+      "logo": "ynap",
       "country": "Italy",
       "city": "Bologna",
       "role": "DevOps Engineer",
       "contractType": "Full-Time",
-      "description": "Working on Different Projects/Products. Mainly Focusing on Implementing and letting teams adopt Hashicorp Vault and implementing ADF (AWS Deployment Framework) for AWS multi-accounts creation and resource deployment across all the Organization. The following is a summary of technologies and methods used in daily work: \n\n HASHICORP VAULT \n\n  * Infrastructure \n     - Deployed on AWS \n     - Defined as Code (Terraform) \n     - Remote on Bitbucket \n     - CI/CD Pipelines in Jenkins \n     - dev/int/prod clusters \n     - Production ready hardened OS \n     - Disaster Recovery \n  * Governance \n     - Namespaces, Policies, Entities, Auth Methods, Secrets Engines, etc.. defined as Code (Terraform) \n     - Leverage AWS Auth method to deploy vault infrastructure in pipelines \n  * On-Prem Integration \n     - Integration with on-premise Jenkins servers by injecting Approle credentials in a scheduled manner through an AWS Fargate as per a YAML inventory \n  * Operations as AWS Lambdas \n     - Defined as Code (terraform) \n     - Modularised --> Each lambda is created through a high versatile module \n     - AWS Lambda to Auth to Vault via AWS Auth Method \n     - Lambdas leverage the Auth Lambda to talk to Vault \n  * Observability and Monitoring \n     - ELK Stack for Operational Logs \n     - Splunk for metrics and telemetries with custom dashboards \n\n AWS \n\n ADF FRAMEWORK \n\n SCM - GIT + BITBUCKET \n\n * Workflow \n     - Standardised git branches names and commit messages (linking Jira tickets) \n     - Rebase for cleaning history \n     - Trunk based Development \n     - Pre-Commit / Pre-Merge hooks for standardisation enforcement (Yet Another Commit Checker) \n\n JENKINS \n\n  * CI/CD Tool \n     - Every Repo is equipped with a Jenkinsfile \n     - Parallelization of testing and modules' deployment \n     - GitOps: \n       # On Push and Pull-Request --> Testing \n       # On Merge --> Testing + Deploy \n\n \n\n TERRAFORM \n\n ANSIBLE \n\n  * Codegen \n     - Create Terraform files from Templates by targeting local inventories (i.e. for creation of Hashicorp Vault Namespaces) \n     - Meta-Ansible --> Ansible creating Ansible inventory \n\n WORK ENVIRONMENT - DOCKER",
+      "description": "Working on Different Projects/Products. Mainly Focusing on Implementing and letting teams adopt Hashicorp Vault and implementing ADF (AWS Deployment Framework) for AWS multi-accounts creation and resource deployment across all the Organization. The following is a summary of technologies and methods used in daily work: \n #### HASHICORP VAULT \n * Infrastructure \n     - Deployed on AWS \n     - Defined as Code (Terraform) \n     - Remote on Bitbucket \n     - CI/CD Pipelines in Jenkins \n     - dev/int/prod clusters \n     - Production ready hardened OS \n     - Disaster Recovery \n  * Governance \n     - Namespaces, Policies, Entities, Auth Methods, Secrets Engines, etc.. defined as Code (Terraform) \n     - Leverage AWS Auth method to deploy vault infrastructure in pipelines \n  * On-Prem Integration \n     - Integration with on-premise Jenkins servers by injecting Approle credentials in a scheduled manner through an AWS Fargate as per a YAML inventory \n  * Operations as AWS Lambdas \n     - Defined as Code (terraform) \n     - Modularised --> Each lambda is created through a high versatile module \n     - AWS Lambda to Auth to Vault via AWS Auth Method \n     - Lambdas leverage the Auth Lambda to talk to Vault \n  * Observability and Monitoring \n     - ELK Stack for Operational Logs \n     - Splunk for metrics and telemetries with custom dashboards \n #### AWS \n #### ADF FRAMEWORK \n #### SCM - GIT + BITBUCKET \n * Workflow \n     - Standardised git branches names and commit messages (linking Jira tickets) \n     - Rebase for cleaning history \n     - Trunk based Development \n     - Pre-Commit / Pre-Merge hooks for standardisation enforcement (Yet Another Commit Checker) \n #### JENKINS \n * CI/CD Tool \n     - Every Repo is equipped with a Jenkinsfile \n     - Parallelization of testing and modules' deployment \n     - GitOps: \n       - On Push and Pull-Request --> Testing \n       - On Merge --> Testing + Deploy \n #### TERRAFORM \n #### ANSIBLE \n * Codegen \n     - Create Terraform files from Templates by targeting local inventories (i.e. for creation of Hashicorp Vault Namespaces) \n     - Meta-Ansible --> Ansible creating Ansible inventory \n #### WORK ENVIRONMENT - DOCKER",
       "startDate": "09/2022",
       "endDate": null
     },
     {
       "company": "ALTEN Italia",
+      "logo": "alten",
       "country": "Italy",
       "city": "Bologna",
       "role": "Software Analyst",
@@ -81,6 +86,7 @@
     },
     {
       "company": "ALTEN Italia",
+      "logo": "alten",
       "country": "Italy",
       "city": "Bologna",
       "role": "Software Developer",

@@ -15,7 +15,7 @@
   },
   {
     "name": "Secrets Manager - SStore (Secure Store)",
-    "description": "Simple secrets manager, where with a single and strong password, one can safely store and then retrieve every secret.",
+    "description": "Simple secrets manager, where with a single and strong password, one can safely store and then retrieve any secret.",
     "links": {
       "github - mongoDB": "https://github.com/KevinDeNotariis/sstore",
       "github - mongoDB-less": "https://github.com/KevinDeNotariis/sstore/tree/mongoDBLess"
@@ -33,7 +33,7 @@
   },
   {
     "name": "Build a complete CI/CD Pipeline and its infrastructure with AWS — Jenkins — Bitbucket — Docker — Terraform",
-    "description": "A tutorial composed of 6 medium articles in which I try to guide the reader through the creation of a complete CI / CD pipeline with all the infrastructure implemented as Code using Terraform on AWS.",
+    "description": "A tutorial composed of 6 medium articles in which I try to guide the reader through the creation of a complete CI / CD pipeline with all the infrastructure on AWS implemented as Code using Terraform.",
     "links": {
       "github": "https://github.com/KevinDeNotariis/pipeline-template",
 

@@ -4,6 +4,7 @@ import Nationality from "./Nationality";
 import HorizontalLine from "./HorizontalLine";
 import UsefulLinks from "./UsefulLinks";
 import Skills from "./Skills";
+import {H4} from "./headers"
 
 const UsefulLinksGroup = styled.div`
   margin: 10px 0;
@@ -45,7 +46,7 @@ const PersonalInfo = (props) => {
       </UsefulLinksGroup>
       <HorizontalLine />
 
-      <h4>Skills:</h4>
+      <H4>Skills:</H4>
       <Skills skills={props.data.skills} />
     </Container>
   );

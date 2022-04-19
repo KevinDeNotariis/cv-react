@@ -1,13 +1,15 @@
 import React from "react";
-import HTMLReactParser from "html-react-parser";
 import SectionName from "./SectionName";
+import MarkdownParse from "./MarkdownParse.js";
 
 const AboutMe = (props) => {
   return (
     <>
       <SectionName>About Me</SectionName>
-      <div style={{ whiteSpace: "pre-wrap", textAlign: "justify" }}>
-        {HTMLReactParser(props.description)}
+      <div style={{ textAlign: "justify" }}>
+        <MarkdownParse>
+          {props.description}
+        </MarkdownParse>
       </div>
     </>
   );

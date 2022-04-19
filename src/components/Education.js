@@ -1,21 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 import Dissertation from "./Dissertation";
+import LogoTitle from "./LogoTitle";
 
 const Container = styled.div`
   text-align: justify;
+  padding: 0 10px;
 `;
 
 const Education = (props) => {
   return (
     <Container>
+      <LogoTitle 
+        image_src={props.data.logo}
+        image_alt={props.data.logo}
+        title={`${props.data.type} - ${props.data.institution}`}
+      />
       <p>
         {props.data.startYear} -{" "}
         {props.data.endYear ? props.data.endYear : "Current"}
       </p>
-      <h4>
-        {props.data.type} &rarr; {props.data.institution}
-      </h4>
       <p>
         {props.data.country} - {props.data.city}
       </p>
@@ -27,10 +31,11 @@ const Education = (props) => {
 
       {props.data.dissertation ? (
         <Dissertation
-          title={props.data.dissertation.title}
-          supervisor={props.data.dissertation.supervisor}
+        title={props.data.dissertation.title}
+        supervisor={props.data.dissertation.supervisor}
         />
-      ) : undefined}
+        ) : undefined
+      }
     </Container>
   );
 };

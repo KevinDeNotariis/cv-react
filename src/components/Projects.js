@@ -23,10 +23,10 @@ const Projects = (props) => {
         {props.data.map((project, key) => {
           return (
             <div key={key}>
-              <h3>{project.name}</h3>
+              <h2>{project.name}</h2>
               <p>{project.description}</p>
               {Object.keys(project.links).length === 0 ? undefined : (
-                <h5>Link(s):</h5>
+                <h3>Link(s):</h3>
               )}
               {Object.keys(project.links).map((link, key) => {
                 return (
@@ -41,7 +41,7 @@ const Projects = (props) => {
                   </Link>
                 );
               })}
-              <h5>Technologies:</h5>
+              <h3>Technologies:</h3>
               <Skills skills={project.technologies} />
             </div>
           );
