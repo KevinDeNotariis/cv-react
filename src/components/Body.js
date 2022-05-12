@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from "react";
-import Me from "./Me";
-import {H1} from "./headers"
+import React, { useState, useEffect } from 'react';
+import Me from './Me';
+import { H1 } from './headers';
 
 const Body = () => {
   const [data, setData] = useState({});
 
   const getData = () => {
-    fetch("me.json", {
+    fetch('me.json', {
       headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
       },
     })
       .then((res) => {

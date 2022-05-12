@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const AsideHeaders = styled.h4`
   margin-bottom: 0px;
@@ -25,8 +25,8 @@ const FlagRed = styled.div`
 
 const Nationality = (props) => {
   return (
-    <div style={{ height: "100px", position: "relative" }}>
-      <div style={{ position: "absolute", paddingLeft: "10px" }}>
+    <div style={{ height: '100px', position: 'relative' }}>
+      <div style={{ position: 'absolute', paddingLeft: '10px' }}>
         <AsideHeaders>Nationality: </AsideHeaders>
         <p>{props.nationality}</p>
       </div>

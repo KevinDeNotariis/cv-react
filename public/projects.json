@@ -1,8 +1,10 @@
 [
   {
     "name": "The current website",
-    "description": "Construct a personal website exposing my CV and my projects.",
-    "links": {},
+    "description": "Build a personal website exposing my CV, projects, certifications and Talks. Fully Responsive and deployed into AWS.",
+    "links": {
+      "github": "https://github.com/KevinDeNotariis/cv-react"
+    },
     "technologies": [
       "Node.js",
       "React.js",
@@ -10,7 +12,8 @@
       "React-Router-Dom",
       "Styled-Components",
       "Terraform",
-      "AWS"
+      "AWS",
+      "Docker"
     ]
   },
   {

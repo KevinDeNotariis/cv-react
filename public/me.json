@@ -10,7 +10,7 @@
     "linkedin": "https://www.linkedin.com/in/kevin-de-notariis-4b48221b0"
   },
   "caption": "Theoretical Physicist && Software Developer && DevOps Engineer",
-  "description": "I am a very dynamic and curious guy, fascinated about the mysteries of our universe and the technology that we came to develop in these last few decades. My accademic path studying physics has been a wonderful journey, and I'm still amazed by the astonishing inner workings of our reality that we managed to discover mostly in the last couple of centuries. \n\nI love science and I love learning. I feel some kind of drive towards the unknown, I love to test my skills and face new challenges. \n\n```\n Always Improve\n```\n\n is my motto! \n\nRight now I'm into these topics:\n\n - Web Development;\n - DevOps;\n - Blockchain technologies;\n - Ethical Hacking. \n\nAlso, I started to publish articles on Medium hoping to transfer some of my knowledge to other people and ease their journey through all these technologies.",
+  "description": "description_about_me",
   "education": [
     {
       "type": "Master's degree",
@@ -69,7 +69,7 @@
       "city": "Bologna",
       "role": "DevOps Engineer",
       "contractType": "Full-Time",
-      "description": "Working on Different Projects/Products. Mainly Focusing on Implementing and letting teams adopt Hashicorp Vault and implementing ADF (AWS Deployment Framework) for AWS multi-accounts creation and resource deployment across all the Organization. The following is a summary of technologies and methods used in daily work: \n #### HASHICORP VAULT \n * Infrastructure \n     - Deployed on AWS \n     - Defined as Code (Terraform) \n     - Remote on Bitbucket \n     - CI/CD Pipelines in Jenkins \n     - dev/int/prod clusters \n     - Production ready hardened OS \n     - Disaster Recovery \n  * Governance \n     - Namespaces, Policies, Entities, Auth Methods, Secrets Engines, etc.. defined as Code (Terraform) \n     - Leverage AWS Auth method to deploy vault infrastructure in pipelines \n  * On-Prem Integration \n     - Integration with on-premise Jenkins servers by injecting Approle credentials in a scheduled manner through an AWS Fargate as per a YAML inventory \n  * Operations as AWS Lambdas \n     - Defined as Code (terraform) \n     - Modularised --> Each lambda is created through a high versatile module \n     - AWS Lambda to Auth to Vault via AWS Auth Method \n     - Lambdas leverage the Auth Lambda to talk to Vault \n  * Observability and Monitoring \n     - ELK Stack for Operational Logs \n     - Splunk for metrics and telemetries with custom dashboards \n #### AWS \n #### ADF FRAMEWORK \n #### SCM - GIT + BITBUCKET \n * Workflow \n     - Standardised git branches names and commit messages (linking Jira tickets) \n     - Rebase for cleaning history \n     - Trunk based Development \n     - Pre-Commit / Pre-Merge hooks for standardisation enforcement (Yet Another Commit Checker) \n #### JENKINS \n * CI/CD Tool \n     - Every Repo is equipped with a Jenkinsfile \n     - Parallelization of testing and modules' deployment \n     - GitOps: \n       - On Push and Pull-Request --> Testing \n       - On Merge --> Testing + Deploy \n #### TERRAFORM \n #### ANSIBLE \n * Codegen \n     - Create Terraform files from Templates by targeting local inventories (i.e. for creation of Hashicorp Vault Namespaces) \n     - Meta-Ansible --> Ansible creating Ansible inventory \n #### WORK ENVIRONMENT - DOCKER",
+      "description": "description_yoox",
       "startDate": "09/2022",
       "endDate": null
     },
@@ -80,7 +80,7 @@
       "city": "Bologna",
       "role": "Software Analyst",
       "contractType": "Apprenticeship",
-      "description": "Consultant for a client in the Bank sector. Working on mainframe technologies by implementing Batch programs in COBOL and JCLs with DB2 as database. In particular I was focused on converting EASYTRIEVE programs to COBOL ones due to a change in a software provider by this client.\n\nIn the meantime I was learning and experimenting with DevOps Tools and Techniques. In fact, I managed to create a complete CI/CD pipeline with all the infrastructure on AWS (using Terraform) and written all of that in 6 articles on medium guiding the curious reader through the path of creating everything from scratch. Please check my Medium profile for more details.",
+      "description": "description_alten_apprenticeship",
       "startDate": "11/2021",
       "endDate": "09/2022"
     },
@@ -91,7 +91,7 @@
       "city": "Bologna",
       "role": "Software Developer",
       "contractType": "Internship",
-      "description": "Learning period in which I attended lots of online courses. Some of them:\n\n - COBOL and Mainframe; \n - Professional Scrum Master; \n - Become a MERN stack javascript developer; \n - Become an Ethical Hacker. \n\nIn these couple of months I had also been assigned to a team dedicated to functional and stress tests, thanks to which I also gained some foundations of Katalon and JMeter. I focused my time mainly on learning the MERN stack (MongoDB, Express.js, React.js, Node.js) and creating a tutorial on my github on how to build a web site completely from scratch using these technologies (authentication / authorization - logging in, logging out - input sanification and validation). \nThe ethical hacking course gave me insights on network protocols, vulnerabilities of web applications, operating systems, etc.., how to exploit them and how to secure them.",
+      "description": "description_alten_internship",
       "startDate": "09/2020",
       "endDate": "11/2020"
     }
@@ -118,7 +118,6 @@
     "Network Protocols",
     "Assembly",
     "Git",
-    "npm",
     "Virtual Box",
     "EJS",
     "Mocha + Chai",

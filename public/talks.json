@@ -1,0 +1,25 @@
+[
+  {
+    "what": "HashiConf Europe 2022",
+    "date": "22/06/2022",
+    "type": "Virtual",
+    "title": "Vault & AWS Lambda",
+    "subtitle": "Towards a Sub-Minute Recovery",
+    "short_description": "How to leverage AWS Lambda functions to automate Disaster Recovery operations on a Vault Cluster to achieve a possibly sub-minute mean time to recovery",
+    "description": "In this talk I'd like to present to the audience how we at YNAP solved the challenge of making operations on a Vault Cluster hosted on AWS and how to construct a scalable infrastructure. In particular, the operations of demoting/promoting Vault DR Clusters, generating DR operations batch tokens, switching the weights of a DNS weighted policy between DR clusters' endpoints and more. Leveraging all these lambdas we managed to have a Mean Time To Recovery (MTTR) of just, in principle, a couple of seconds."
+  },
+  {
+    "video": "https://www.youtube.com/watch?v=-7oajKB6L40",
+    "embed_video": "https://www.youtube.com/embed/-7oajKB6L40",
+    "thumbnail": "https://img.youtube.com/vi/-7oajKB6L40/hqdefault.jpg",
+    "slides": "https://drive.google.com/file/d/1o6UPyr_W6nrXNhkHzvVFPJb-83LiU_Nx/view",
+    "slides_embed_id": "1o6UPyr_W6nrXNhkHzvVFPJb-83LiU_Nx",
+    "date": "18/02/2022",
+    "what": "HashiTalks 2022",
+    "type": "Virtual",
+    "title": "Hashicorp Vault and Jenkins",
+    "subtitle": "Leveraging AWS IAM to empower a hybrid scenario",
+    "short_description": "How to establish a trust relationship between on-premise jenkins and Hashicorp Vault hosted on AWS and consume credentials via shared library",
+    "description": "We present here a real-world problem regarding the integration of Vault with on-premise resources and explain how we solved that issue by relying on AWS as our Trust. In particular, the audience could take inspiration from our resolution to eventually overcome the same issue that we encountered, being able to establish a secure way to inject approle's credentials into a Jenkins on-premise via an AWS Fargate running on a scheduled basis. Also, after defining a governance regarding the allowed path where AWS credentials should be placed inside Vault, we were able to encapsulate the AWS authentication inside a Jenkins' shared library, where the only variable required is the AWS Account name (for we are working in a multi-account AWS organisation structure)."
+  }
+]

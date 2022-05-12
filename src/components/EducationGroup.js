@@ -1,7 +1,7 @@
-import React from "react";
-import HorizontalLine from "./HorizontalLine";
-import Education from "./Education";
-import SectionName from "./SectionName";
+import React from 'react';
+import HorizontalLine from './HorizontalLine';
+import Education from './Education';
+import SectionName from './SectionName';
 
 const EducationGroup = (props) => {
   return (

@@ -1,7 +1,8 @@
-import React from "react";
-import styled from "styled-components";
-import Link from "./Link";
-import Skills from "./Skills";
+import React from 'react';
+import styled from 'styled-components';
+import Link from './Link';
+import Skills from './Skills';
+import HorizontalLine from './HorizontalLine';
 
 const ContainerContainer = styled.div`
   display: flex;
@@ -13,7 +14,6 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 60%;
-  text-align: justify;
 `;
 
 const Projects = (props) => {
@@ -25,14 +25,12 @@ const Projects = (props) => {
             <div key={key}>
               <h2>{project.name}</h2>
               <p>{project.description}</p>
-              {Object.keys(project.links).length === 0 ? undefined : (
-                <h3>Link(s):</h3>
-              )}
+              {Object.keys(project.links).length === 0 ? undefined : <h3>Link(s):</h3>}
               {Object.keys(project.links).map((link, key) => {
                 return (
                   <Link
                     key={key}
-                    style={{ fontSize: "18px" }}
+                    style={{ fontSize: '18px' }}
                     target="_blank"
                     rel="noreferrer"
                     href={project.links[link]}
@@ -43,6 +41,7 @@ const Projects = (props) => {
               })}
               <h3>Technologies:</h3>
               <Skills skills={project.technologies} />
+              {key !== props.data.length - 1 && <HorizontalLine />}
             </div>
           );
         })}

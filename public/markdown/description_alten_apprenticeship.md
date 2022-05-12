@@ -1,0 +1,3 @@
+Consultant for a client in the Bank sector. Working on mainframe technologies by implementing Batch programs in COBOL and JCLs with DB2 as database. In particular I was focused on converting EASYTRIEVE programs to COBOL ones due to a change in a software provider by this client.
+
+In the meantime I was learning and experimenting with DevOps Tools and Techniques. In fact, I managed to create a complete CI/CD pipeline with all the infrastructure on AWS (using Terraform) and written all of that in 6 articles on medium guiding the curious reader through the path of creating everything from scratch. Please check my Medium profile for more details.

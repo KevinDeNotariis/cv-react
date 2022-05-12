@@ -1,10 +1,11 @@
-import React from "react";
-import styled from "styled-components";
-import Nationality from "./Nationality";
-import HorizontalLine from "./HorizontalLine";
-import UsefulLinks from "./UsefulLinks";
-import Skills from "./Skills";
-import {H4} from "./headers"
+import React from 'react';
+import styled from 'styled-components';
+import Nationality from './Nationality';
+import HorizontalLine from './HorizontalLine';
+import UsefulLinks from './UsefulLinks';
+import Skills from './Skills';
+import { H4 } from './headers';
+import MyPhoto from './MyPhoto';
 
 const UsefulLinksGroup = styled.div`
   margin: 10px 0;
@@ -13,7 +14,6 @@ const UsefulLinksGroup = styled.div`
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: justify;
   max-width: 20%;
   padding: 0 50px;
 
@@ -30,6 +30,7 @@ const AsideHeaders = styled.h4`
 const PersonalInfo = (props) => {
   return (
     <Container>
+      <MyPhoto />
       <Nationality nationality={props.data.nationality} />
       <HorizontalLine />
       <AsideHeaders>Birth Date: </AsideHeaders>

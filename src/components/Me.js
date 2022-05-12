@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "styled-components";
-import HorizontalLine from "./HorizontalLine";
-import WorkExperiences from "./WorkExperiences";
-import AboutMe from "./AboutMe";
-import EducationGroup from "./EducationGroup";
-import PersonalInfo from "./PersonalInfo";
-import {H1, H3} from "./headers"
+import React from 'react';
+import styled from 'styled-components';
+import HorizontalLine from './HorizontalLine';
+import WorkExperiences from './WorkExperiences';
+import AboutMe from './AboutMe';
+import EducationGroup from './EducationGroup';
+import PersonalInfo from './PersonalInfo';
+import { H1, H3 } from './headers';
 
 const Root = styled.div`
   display: flex;
@@ -27,7 +27,6 @@ const Container = styled.div`
 const ContentCV = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: justify;
   max-width: 60%;
   padding: 0 50px;
 
@@ -52,7 +51,7 @@ const Me = (props) => {
     <Root>
       <Header>
         <H1>{props.data.name}</H1>
-        <H3 style={{ letterSpacing: "4px" }}>{props.data.caption}</H3>
+        <H3 style={{ letterSpacing: '4px' }}>{props.data.caption}</H3>
         <HorizontalLine />
       </Header>
       <Container>

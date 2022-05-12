@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Container = styled.div`
   display: grid;
@@ -24,7 +24,7 @@ const Skill = styled.div`
 const Skills = (props) => {
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Container>
           {props.skills.map((elem, key) => (
             <Skill key={key}>{elem}</Skill>
