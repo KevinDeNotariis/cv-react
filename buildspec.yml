@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 16
+    
+    commands:
+      - echo "Installing Nodejs Modules"
+      - NODE_ENV=production npm i
+
+  pre_build:
+    commands:
+      - echo "Building React App"
+      - npm run build
+      
+  build:
+    commands:
+      - echo "Sync to S3"
+      - aws s3 sync build/ s3://kevin.quantumchromod.com
