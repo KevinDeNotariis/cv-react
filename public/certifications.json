@@ -1,4 +1,10 @@
 {
+  "AWS": [
+    {
+      "title": "AWS Certified DevOps Engineer - Professional",
+      "link": "https://www.credly.com/badges/d6a3236c-15d1-49a2-9605-b7736fa9874c"
+    }
+  ],
   "hashicorp": [
     {
       "title": "HashiCorp Certified: Vault Associate",

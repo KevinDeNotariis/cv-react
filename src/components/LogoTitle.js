@@ -8,10 +8,10 @@ const Container = styled.div`
   justify-content: flex-start;
   width: 100%;
   gap: 10px;
+  align-items: center;
 
   @media (max-width: 768px) {
     flex-direction: column;
-    align-items: center;
   }
 `;
 
@@ -31,6 +31,10 @@ const LogoTitle = (props) => {
               ? 'logos/alten.png'
               : props.image_src === 'ynap'
               ? 'logos/ynap.png'
+              : props.image_src === 'sentia'
+              ? 'logos/sentia.png'
+              : props.image_src === 'accenture'
+              ? 'logos/accenture.png'
               : null
           }
           style={{ width: 100, height: 100 }}

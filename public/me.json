@@ -63,6 +63,28 @@
   ],
   "workExperience": [
     {
+      "company": "Accenture Netherlands",
+      "logo": "accenture",
+      "country": "Netherlands",
+      "city": "Rottedam",
+      "role": "Infra Transformation Specialist",
+      "contractType": "Full-Time",
+      "description": "description_accenture",
+      "startDate": "04/2023",
+      "endDate": null
+    },
+    {
+      "company": "Sentia - Part of accenture",
+      "logo": "sentia",
+      "country": "Netherlands",
+      "city": "Rottedam",
+      "role": "AWS Consultant",
+      "contractType": "Full-Time",
+      "description": "description_sentia",
+      "startDate": "01/2023",
+      "endDate": "04/2023"
+    },
+    {
       "company": "Yoox Net-A-Porter Group",
       "logo": "ynap",
       "country": "Italy",
@@ -71,7 +93,7 @@
       "contractType": "Full-Time",
       "description": "description_yoox",
       "startDate": "09/2022",
-      "endDate": null
+      "endDate": "12/2022"
     },
     {
       "company": "ALTEN Italia",

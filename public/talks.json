@@ -1,5 +1,8 @@
 [
   {
+    "video": "https://www.youtube.com/watch?v=VrpLyYko17U",
+    "embed_video": "https://www.youtube.com/embed/VrpLyYko17U",
+    "thumbnail": "https://img.youtube.com/vi/-VrpLyYko17U/hqdefault.jpg",
     "what": "HashiConf Europe 2022",
     "date": "22/06/2022",
     "type": "Virtual",
